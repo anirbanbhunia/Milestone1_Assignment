@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgba(0,0,0,0.2);
+}
+h1{
+    color: rgb(105, 86, 59);
+    text-shadow: 10px 10px 10px;
+}
+.sec{
+    display: flex;
+    gap: 30px;
+    align-items: end;
+}
+.inp{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+label{
+    font-size: 20px;
+    color: rgb(105, 86, 59);
+}
+#inp1{
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+}
+#inp1:focus{
+    background-color: black;
+    color: white;
+}
+#inp1::-webkit-outer-spin-button,
+#inp1::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+#value{
+    background-color: bisque;
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px 0px;
+    color: rgb(105, 86, 59);
+    padding: 20px;
+    overflow: auto;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color:cadetblue;
+    color: white;
+    font-weight: 600;
+}
+button:active{
+    background-color: black;
+}

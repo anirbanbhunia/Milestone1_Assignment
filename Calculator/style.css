@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(118, 177, 50, 0.6),rgba(150,232,185,0.3)),url("./img3.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 134%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 900;
+    gap: 20px;
+}
+input{
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+    border-color: orange;
+    outline-color: orange;
+    font-weight: 600;   
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+input:focus{
+    background-color: yellow;
+}
+#num1{
+    height: 50px;
+    width: 200px;
+    padding: 20px;
+    font-size: 18px;
+}
+#num2{
+    height: 50px;
+    width: 200px;
+    padding: 20px;
+    font-size: 18px;
+}
+#mathematicalOperator{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: -10px;
+}
+#operator{
+    height: 50px;
+    width: 40px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+#operator~p{
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+    position: relative;
+    bottom: 12px;
+}
+#resultsec{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 70px;
+    position: relative;
+    right: 10px;
+}
+span{
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+    border-color: orangered;
+    font-weight: 600;
+    background-color: white;
+    padding: 10px;
+}
+button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    width: 100px;
+    background-color:orangered;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0px black;
+    border: none;
+    cursor: pointer;
+}
+button:active{
+    background-color: darkgrey;
+    color: red;
+}

@@ -1,0 +1,16 @@
+*{
+    background-color: black;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+img{
+    scale: 1.5;
+    background-color: transparent;
+    position: relative;
+    transition: 0.4s 
+}

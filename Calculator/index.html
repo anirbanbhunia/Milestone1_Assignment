@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <div id="firstnum" class="sec">
+            <label for="num1">Enter your first number</label>
+            <input id="num1" type="number">
+        </div>
+        <div id="mathematicalOperator"class="sec">
+            <label for="operator">Enter mathematical
+            operation</label>
+            <input id="operator" type="text" maxlength="1">
+            <p id="para"></p>
+        </div>
+        <div id="secondnum" class="sec">
+            <label for="num2">Enter your second number</label>
+            <input id="num2" type="number">
+        </div>
+    </div>
+    <div id="resultsec" class="sec">
+        <button id="but">Result</button>
+        <span id="result"></span>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

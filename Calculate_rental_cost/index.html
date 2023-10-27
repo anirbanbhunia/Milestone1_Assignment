@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculate rental cost</title>
+</head>
+<body>
+    <div class="main">
+        <div class="section1">
+            <h2>Click on the car type</h2>
+            <div>
+                <label for="car1">Economy</label>
+                <input type="radio" name="carType" id="car1" value="Economy">
+            </div>
+            <div>
+                <label for="car2">Midsize</label>
+                <input type="radio" name="carType" id="car2" value="Midsize">
+            </div>
+            <div>
+                <label for="car3">Luxury</label>
+                <input type="radio" name="carType" id="car3" value="Luxury">
+            </div>
+            <div class="noOfDay">
+                <label for="days" class="daylab">Enter number of days rented</label>
+                <input type="number" id="days">
+                <span class="wrong" id="wrong"></span>
+            </div>
+        </div>
+        <div class="section2">
+            <h2>Your total rental cost</h2>
+            <div id="cost"></div>
+        </div>
+    </div>
+    <button id="butt">Enter</button>
+    <script src="./script.js"></script>
+</body>
+</html>

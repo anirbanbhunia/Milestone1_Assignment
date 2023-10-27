@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+h2{
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 4px rgb(134, 129, 129);
+}
+#car1{
+    margin-left: 9px;
+}
+#car2{
+    margin-left: 19px;
+}
+#car3{
+    margin-left: 20.5px;
+}
+label{
+  font-weight: 600;  
+}
+.noOfDay{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.daylab{
+    margin-bottom: 10px;
+}
+#days{
+    border: 1px solid rgb(134, 129, 129);
+    outline: none;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+#days:focus{
+    border: 2px solid white;
+}
+#days::-webkit-inner-spin-button,
+#days::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+.wrong{
+    font-size: 14px;
+    margin-left: 12px;
+    color:rgb(134, 129, 129);
+    font-weight: 200;
+}
+#cost{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(134, 129, 129);
+    height: 170px;
+    overflow-wrap: break-word;
+    overflow: auto;
+    border-radius: 15px;
+    justify-content: center;
+    font-size: 30px;
+}
+#butt{
+    background-color:white;
+    color: black;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid rgb(134, 129, 129);
+}
+#butt:active{
+    background-color:black;
+    color: white;
+}
+
